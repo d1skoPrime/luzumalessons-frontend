@@ -24,6 +24,12 @@ const QuizSelectLevel = () => {
           >
             Insane
           </a>
+          <div className="">
+            <h1 className="text-teal-500 font-bold">
+              If you get higher than <span className="text-red-500">95%</span>,
+              be ready to answer some questions that I'll ask you
+            </h1>
+          </div>
         </div>
       </div>
     </div>

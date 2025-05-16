@@ -96,6 +96,9 @@ const Quizeasy = () => {
             <h2 className="text-3xl font-bold mb-4 text-teal-400">
               Quiz Finished!
             </h2>
+            <h2 className="text-white font-bold">
+              Quiz Level: <span className="text-green-400">Easy</span>
+            </h2>
             <p className="text-xl mb-4">
               You scored <span className="font-bold">{score}</span> out of{' '}
               {shuffledQuestions.length}

@@ -8,9 +8,15 @@ const Home = () => {
           </h1>
           <a
             href="coding/sandbox"
-            className="font-bold bg-teal-400 px-5 py-2 rounded-lg hover:bg-teal-700 transition-colors duration-700 ease-in-out"
+            className="font-bold bg-teal-400 px-5 py-2 rounded-lg mb-10 hover:bg-teal-700 transition-colors duration-700 ease-in-out"
           >
             Practice Coding
+          </a>
+          <a
+            href="coding/quiz"
+            className="font-bold bg-orange-400 px-5 py-2 rounded-lg hover:bg-teal-700 transition-colors duration-700 ease-in-out"
+          >
+            Take A Quiz
           </a>
         </div>
       </div>

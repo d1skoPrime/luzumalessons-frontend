@@ -4,7 +4,6 @@ import { createRoot } from 'react-dom/client';
 import { HelmetProvider } from 'react-helmet-async';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
-import App from './App.tsx';
 import './global/index.css';
 import AuthLayout from './pages/Auth/AuthLayout.tsx';
 import SignUpL from './pages/Auth/SignUpL.tsx';
@@ -25,7 +24,7 @@ createRoot(document.getElementById('root')!).render(
         <ToastContainer position="top-right" autoClose={3000} />
         <Router>
           <Routes>
-            <Route path="" element={<App />} />
+            <Route path="" element={<HomeL />} />
             <Route path="/signup" element={<SignUpL />} />
             <Route path="/dashboard" element={<HomeL />} />
             <Route path="/coding/sandbox" element={<CodingL />} />
